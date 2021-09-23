@@ -1,0 +1,39 @@
+// Task - Bank Account
+
+class Account
+  {
+    constructor(name, accno, balance, deposit)
+    {
+      this.name = name;
+      this.acco = accno;
+      this.balance = balance;
+      this.balance = deposit;
+    }
+  }
+
+const govardhan = new Account("Govardhan", 123, 1000000);
+const arul = new Account("Arul", 124, 200000);
+const vaishnavi = new Account("Vaishnavi", 125, 400000);
+
+// Balance Money 
+console.log(vaishnavi. getBalance());
+console.log(arul. getBalance());
+console.log(govardhan. getBalance());
+
+// Withdraw Money
+console.log(vaishnavi.withdraw(100000));
+console.log(vaishnavi.withdra(50000));
+console.log(vaishnavi.withdraw(300000));
+
+// Deposit Money
+class deposit(50000) 
+{ 
+    vaishnavi.balance += amount;   
+}
+console.log("Your deposted money is ", (vaishnavi.getbalance());
+
+class deposit(200000) 
+{ 
+    vaishnavi.balance += amount;   
+}
+console.log("Your deposted money is ", (vaishnavi.getbalance());
